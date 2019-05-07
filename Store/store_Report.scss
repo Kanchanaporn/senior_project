@@ -1,0 +1,43 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.note {
+    font-size: .8em;
+}
+
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+}
+h1 {
+    color: #F16622;
+    text-align: center;
+    font-size: 35;
+    padding-top: 2%;
+    transition: 0.3s;
+}
+h2 {
+    color: #F16622;
+    text-align: left;
+    font-size: 25;
+    padding-top: 2%;
+    transition: 0.3s;
+}

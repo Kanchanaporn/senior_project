@@ -25,6 +25,6 @@ app.get('/store',function(req,res){
     res.sendFile(__dirname + '/Store/store.html');
 })
 app.get('/store/income',function(req,res){
-    res.sendFile(__dirname + '/Store/store_income.html');
+    res.sendFile(__dirname + '/Store/store_Report.html');
 })
 app.listen(8002)
