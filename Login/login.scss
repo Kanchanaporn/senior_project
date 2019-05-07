@@ -1,0 +1,38 @@
+body {
+    background-color: #0D1D3E;
+}
+div{
+    text-align: center;
+    padding:10px;
+}
+h2 {
+    color: #F16622;
+    text-align: center;
+    font-size: 40;
+    padding-top: 5%;
+    transition: 0.3s;
+}
+
+input[type=text] ,input[type=password]{
+   text-align: center;
+   width: 25%;
+   height: 50px;
+   font-size: 20px;
+   transition: 0.4s;
+}
+
+button{
+background-color:#F16622 ;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.5s;
+}
+button:hover{
+    background-color: #FFC30C;
+    color: #0D1D3E;
+}
+ 
